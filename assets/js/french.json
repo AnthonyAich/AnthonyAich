@@ -1,0 +1,21 @@
+{
+    "home": "Accueil",
+    "about": "A propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "resume": "Résumé",
+    "myResume": "Mon Résumé",
+    "title": "Developpeur Web - Nerd CSS",
+    "contactMe": "Contactez-moi",
+    "who": "Qui suis-je ?",
+    "whoText": "Je suis un développeur Web originaire de Gand, en Belgique. J'ai peut-être grandi bilingue avec le néerlandais et le français, mais aujourd'hui, je parle couramment JavaScript et CSS, les seuls langages où le ''style'' est à la fois une exigence de syntaxe et un choix de conception.<br>L'UI et l'UX sont également très importants pour moi. Je trouve fascinant de créer quelque chose qui soit à la fois fonctionnel et esthétique.",
+    "myProjects": "Mes projets",
+    "whatName": "Quel est votre nom ?",
+    "howContact": "Comment puis-je vous contacter ?",
+    "yourMessage": "Votre message",
+    "send": "Envoyer!",
+    "sent": "Envoyé!",
+    "placeMessage": "Placez votre message ici",
+    "myProgrammingSkills": "Mes connaissances en programmation",
+    "contactText": "Si vous avez des questions ou si vous souhaitez travailler ensemble, n'hésitez pas à me contacter !"
+}

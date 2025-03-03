@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'variables';
+@import 'loader';
+@import 'index';
+@import 'navBar';
+@import 'langSelector';
+@import 'about';
+@import 'cvOverlay';
+@import 'contact';
+@import 'fixedBg';
+@import 'cursor';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    animation: body 6s linear;
+
+
+    /* width */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        display: none;
+    }
+}
+
+body {
+    width: 100%;
+    background-color: $darkGrey;
+    height: auto;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.cusror {
+    position: absolute;
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    z-index: 1;
+    transition: 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+        0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+}
+
+@keyframes body {
+    0% {
+        overflow-y: hidden;
+    }
+
+    100% {
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        cursor: auto;
+    }
+
+    main {
+        width: 85%;
+    }
+}
+
+@import 'projects';
+
+.fadeFromLeft {
+    opacity: 0;
+    transition: ease-in-out;
+    transform: translateX(-100%);
+}
+
+.fadeIn {
+    opacity: 1;
+    transform: translateX(0);
+    transition: ease-in-out;
+    animation: fadeInLeft 0.5s ease-in-out;
+
+}
+
+.fadeFromRight {
+    opacity: 0;
+    transition: ease-in-out;
+    transform: translateX(100%);
+}
+
+.fadeInRight {
+    opacity: 1;
+    transform: translateX(0);
+    transition: ease-in-out;
+    animation: fadeInRight 0.5s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeFromBottom {
+    opacity: 0;
+    transition: ease-in-out;
+    transform: translateY(100%);
+}
+
+.fadeInBottom {
+    opacity: 1;
+    transform: translateY(0);
+    transition: ease-in-out;
+    animation: fadeInBottom 0.5s ease-in-out;
+}
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

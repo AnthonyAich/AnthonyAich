@@ -1,0 +1,88 @@
+.langSelector {
+    position: fixed;
+    left: 5%;
+    bottom: 50px;
+    animation: langSelector 4s ease-in-out;
+
+    h1 {
+        color: $blue;
+        transform: translate3D(-60px, -70px, 0) rotate(-90deg);
+        display: block;
+        font-size: 26px;
+    }
+
+    .flags {
+        display: block;
+        cursor: pointer;
+
+        &:hover {
+
+            svg {
+                opacity: 0.5;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+        }
+
+        svg {
+            width: 30px;
+            height: auto;
+            display: block;
+            margin: 0px;
+            margin-bottom: 5px;
+        }
+    }
+
+}
+
+@keyframes langSelector {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    75% {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .langSelector {
+        bottom: 5px;
+        display: flex;
+        width: 90%;
+        justify-content: center;
+
+        h1 {
+            transform: translateX(0%);
+            margin-right: 10px;
+        }
+
+        .flags {
+            display: inline-block;
+            cursor: pointer;
+
+            &:hover {
+
+                svg {
+                    opacity: 0.5;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+
+            }
+
+            svg {
+                width: 30px;
+                height: auto;
+                display: inline-block;
+                margin: 0px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

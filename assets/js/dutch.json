@@ -1,0 +1,20 @@
+{
+    "home": "Home",
+    "about": "Over mij",
+    "projects": "Projecten",
+    "contact": "Contact",
+    "resume": "CV",
+    "myResume": "Mijn CV",
+    "title": "Web developer - CSS nerd",
+    "contactMe": "Contacteer mij",
+    "who": "Wie ben ik?",
+    "whoText": "Ik ben een webontwikkelaar uit Gent, België. Ik ben misschien tweetalig opgegroeid met Nederlands en Frans, maar tegenwoordig spreek ik vloeiend JavaScript en CSS - de enige talen waar 'stijl' zowel een syntaxisvereiste als een ontwerpkeuze is.<br>Ook UI en UX zijn erg belangrijk voor mij. Ik vind het fascinerend om iets te creëren dat zowel functioneel als esthetisch aantrekkelijk is.",    "whatName": "Wat is jouw naam?",
+    "howContact": "Hoe kan ik je contacteren?",
+    "yourMessage": "Jouw bericht",
+    "send": "Verzenden!",
+    "sent": "Verzonden!",
+    "placeMessage": "Plaats hier je bericht",
+    "myProjects": "Mijn projecten",
+    "myProgrammingSkills": "Mijn programmeer vaardigheden",
+    "contactText": "Als je vragen hebt of wil samenwerken, neem dan gerust contact met mij op!"
+}

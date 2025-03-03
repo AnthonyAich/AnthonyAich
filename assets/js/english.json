@@ -1,0 +1,21 @@
+{
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume",
+    "myResume": "My Resume",
+    "title": "Web developer - CSS nerd",
+    "contactMe": "Contact me",
+    "who": "Who am I?",
+    "whoText": "I am a Web developer from Ghent, Belgium. I may have grown up bilingual with Dutch and French, but these days I'm fluent in JavaScript and CSS—the only languages where 'style' is both a syntax requirement and a design choice.<br>Also UI and UX are very important to me. I find it fascinating to create something that is both functional and aesthetically pleasing.",
+    "myProjects": "My projects",
+    "whatName": "What is your name?",
+    "howContact": "How can I contact you?",
+    "yourMessage": "Your message",
+    "send": "Send!",
+    "sent": "Sent!",
+    "placeMessage": "Hello Anthony, could we...",
+    "myProgrammingSkills": "My programming skills",
+    "contactText": "If you have any questions or would like to work together, please don't hesitate to contact me!"
+}

@@ -1,0 +1,54 @@
+.cursor {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 100%;
+    border: 0.05vw solid #fff;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 0.75vw), -50%);
+    mix-blend-mode: difference;
+    z-index: 150;
+
+}
+
+.cursor2 {
+    width: 0.5vw;
+    height: 0.5vw;
+    border-radius: 100%;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
+    z-index: 150;
+}
+
+//onhover link change .cursor
+.link:hover~#cursor {
+    background-color: $blue;
+}
+
+.hover {
+    background-color: $blue;
+    opacity: 0.3;
+    border-width: 0.15vw;
+}
+
+.cursorinnerhover {
+    background-color: $blue;
+    width: 2.5vw;
+    height: 2.5vw;
+    opacity: .5;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .cursor,
+    .cursor2 {
+        display: none;
+    }
+}
